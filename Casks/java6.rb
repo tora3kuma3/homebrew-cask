@@ -5,4 +5,5 @@ cask :v1 => 'java6' do
   homepage 'http://support.apple.com/kb/DL1572'
   license :unknown
   pkg 'JavaForOSX.pkg'
+  uninstall :pkgutil => 'com.apple.pkg.JavaForMacOSX107'
 end
