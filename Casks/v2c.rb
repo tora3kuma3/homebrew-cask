@@ -5,4 +5,5 @@ cask :v1 => 'v2c' do
   homepage 'http://v2c.s50.xrea.com/'
   license :unknown
   app 'V2C.app'
+  zap :delete => '~/Library/Application Support/V2C'
 end
